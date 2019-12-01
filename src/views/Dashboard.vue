@@ -1,17 +1,20 @@
 <template>
-  <i-row>
-    <i-column>
-      Dashboard page :)
-    </i-column>
-  </i-row>
+  <i-container fullscreen class="_padding-0" fluid>
+    <dashboard-cards />
+    <dashboard-traffic />
+  </i-container>
 </template>
 
 <script>
 
+import DashboardCards from './base/DashboardCards'
+import DashboardTraffic from './base/DashboardTraffic'
 
 export default {
-  name: 'home',
+  name: 'Dashboard',
   components: {
+    DashboardCards,
+    DashboardTraffic
   }
 }
 </script>

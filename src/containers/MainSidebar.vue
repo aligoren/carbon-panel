@@ -9,7 +9,7 @@
             </i-nav-item>
         </i-nav>
     </i-sidebar> -->
-    <sidebar-menu :menu="items" @toggle-collapse="onToggleCollapse" :collapsed="collapsed" relative />
+    <sidebar-menu  :menu="items" @toggle-collapse="onToggleCollapse" :collapsed="collapsed" relative />
 </template>
 
 <script>
@@ -31,9 +31,25 @@ export default {
             items
         }
     },
+    mounted() {
+        this.onToggleCollapse()
+    },
     methods: {
         onToggleCollapse(collapsed) {
-            this.collapsed = collapsed
+            if (this.isMobile()) {
+                this.collapsed = true
+            } else {
+                this.collapsed = collapsed
+            }
+        },
+        isMobile() {
+            return (navigator.userAgent.match(/Android/i) ||
+                    navigator.userAgent.match(/webOS/i) ||
+                    navigator.userAgent.match(/iPhone/i) ||
+                    navigator.userAgent.match(/iPad/i) ||
+                    navigator.userAgent.match(/iPod/i) ||
+                    navigator.userAgent.match(/BlackBerry/i) ||
+                    navigator.userAgent.match(/Windows Phone/i))
         }
     }
 }
@@ -47,5 +63,4 @@ html, body {
 main {
     height: 100% !important;
 }
-
 </style>
