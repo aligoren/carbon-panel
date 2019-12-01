@@ -1,7 +1,7 @@
 <template>
-    <i-layout-content>
+    <i-layout-content >
         <main-header />
-        <i-container fluid>
+        <i-container class="main-content"  fluid>
             <router-view></router-view>
         </i-container>
     </i-layout-content>
@@ -18,3 +18,10 @@ export default {
     }
 }
 </script>
+
+<style>
+.main-content {
+    height: 90%;
+    overflow-y: auto;
+}
+</style>

@@ -9,7 +9,7 @@
             </i-nav-item>
         </i-nav>
     </i-sidebar> -->
-    <sidebar-menu :menu="items" @toggle-collapse="onToggleCollapse" :collapsed="collapsed" relative />
+    <sidebar-menu  :menu="items" @toggle-collapse="onToggleCollapse" :collapsed="collapsed" relative />
 </template>
 
 <script>
@@ -63,5 +63,4 @@ html, body {
 main {
     height: 100% !important;
 }
-
 </style>
