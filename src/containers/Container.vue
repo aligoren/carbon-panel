@@ -1,16 +1,8 @@
 <template>
   <i-layout>
-    
-    
-
     <i-layout vertical>
-
-      
-      
       <main-sidebar />
-
       <main-content />
-      
     </i-layout>
   </i-layout>
 </template>
