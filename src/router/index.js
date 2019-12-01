@@ -14,6 +14,26 @@ const routes = [
         path: 'dashboard',
         name: 'Dashboard',
         component: () => import('../views/Dashboard.vue')
+      },
+      {
+        path: 'theme',
+        redirect: '/theme/colors',
+        name: 'Theme',
+        component: {
+          render(c) { return c('router-view') }
+        },
+        children: [
+          {
+            path: 'colors',
+            name: 'Colors',
+            component: () => import('../views/theme/Colors.vue')
+          },
+          {
+            path: 'typography',
+            name: 'Typography',
+            component: () => import('../views/theme/Typography.vue')
+          }
+        ]
       }
     ]
   },
