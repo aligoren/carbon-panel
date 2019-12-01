@@ -742,6 +742,14 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@inkline/inkline@^1.14":
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/@inkline/inkline/-/inkline-1.18.0.tgz#105b9db2388b7796b551ffbd9158f0db31791b11"
+  integrity sha512-YFdkT90ic1l+wpwTHhLLkheG6tmns2eimv8f0b6TjUAaRFPu4RjycF/j4EegdelM3k7pgQmQiHFROWYhQM+hAQ==
+  dependencies:
+    core-js "^3.4.1"
+    popper.js "^1.16.0"
+
 "@intervolga/optimize-cssnano-plugin@^1.0.5":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@intervolga/optimize-cssnano-plugin/-/optimize-cssnano-plugin-1.0.6.tgz#be7c7846128b88f6a9b1d1261a0ad06eb5c0fdf8"
@@ -2303,7 +2311,7 @@ core-js-compat@^3.1.1, core-js-compat@^3.4.3:
     browserslist "^4.7.3"
     semver "^6.3.0"
 
-core-js@^3.4.3:
+core-js@^3.4.1, core-js@^3.4.3:
   version "3.4.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.4.5.tgz#3dda65611d95699b5eb7742ea451ea052d37aa65"
   integrity sha512-OuvejWH6vIaUo59Ndlh89purNm4DCIy/v3QoYlcGnn+PkYI8BhNHfCuAESrWX+ZPfq9JccVJ+XXgOMy77PJexg==
@@ -5851,6 +5859,11 @@ pkg-dir@^4.1.0:
   dependencies:
     find-up "^4.0.0"
 
+popper.js@^1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.0.tgz#2e1816bcbbaa518ea6c2e15a466f4cb9c6e2fbb3"
+  integrity sha512-+G+EkOPoE5S/zChTpmBSSDYmhXJ5PsW8eMhH8cP/CQHMFPBG/kC9Y5IIw6qNYgdJ+/COf0ddY2li28iHaZRSjw==
+
 portfinder@^1.0.25:
   version "1.0.25"
   resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.25.tgz#254fd337ffba869f4b9d37edc298059cb4d35eca"
@@ -7834,6 +7847,11 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
+vue-cli-plugin-inkline@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-inkline/-/vue-cli-plugin-inkline-0.0.3.tgz#740f64a3e8cc1b08fd4d26dd77a9d3a7dca67508"
+  integrity sha512-wNYj7QnUGTy/v40MKE+K82sciA3e+mz5QRssQfRM1vIKNse1KfkoTRULhzSJQpruZ2iZZtcLOy5tSl4pzMC8XQ==
+
 vue-eslint-parser@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-5.0.0.tgz#00f4e4da94ec974b821a26ff0ed0f7a78402b8a1"
@@ -7862,6 +7880,11 @@ vue-loader@^15.7.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-router@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.1.3.tgz#e6b14fabc0c0ee9fda0e2cbbda74b350e28e412b"
+  integrity sha512-8iSa4mGNXBjyuSZFCCO4fiKfvzqk+mhL0lnKuGcQtO1eoj8nq3CmbEG8FwK5QqoqwDgsjsf1GDuisDX4cdb/aQ==
+
 vue-style-loader@^4.1.0:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/vue-style-loader/-/vue-style-loader-4.1.2.tgz#dedf349806f25ceb4e64f3ad7c0a44fba735fcf8"
@@ -7883,7 +7906,14 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@^2.6.10:
+vue-tree-navigation@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/vue-tree-navigation/-/vue-tree-navigation-4.0.1.tgz#5ec43afc7c8e3d62b1cc7c472424b9603aac6565"
+  integrity sha512-i7Ts/MG+1gpALGnaHnArn7OVrQm99naBT+zQw8NbYHBnLisnBdXOvyvF80gMypIEofddN2WD7bVHey4UC1cjqw==
+  dependencies:
+    vue "^2.5.17"
+
+vue@^2.5.17, vue@^2.6.10:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==

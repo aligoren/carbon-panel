@@ -1,5 +1,9 @@
 # admin-panel
 
+An admin panel for Vue.js. Built with @inkline
+
+**Status**: WIP
+
 ## Project setup
 ```
 yarn install
