@@ -19,7 +19,7 @@
       <i-column class="_margin-bottom-xs-3-4" md="3" sm="12" xs="12">
         <i-card variant="primary">
             <h4 class="_margin-bottom-0 _margin-top-0">
-                <i class="fas fa-arrow-circle-down"></i> 2.341 <i class="fas fa-lira-sign fa-pull-right"></i>
+                <i class="fas fa-arrow-circle-down"></i> 2.341 <i class="fas fa-dollar-sign fa-pull-right"></i>
             </h4>
             <p>Revenue</p>
         </i-card>
