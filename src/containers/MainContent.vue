@@ -1,27 +1,29 @@
 <template>
-    <i-layout-content >
+    <i-layout-content class="main-content">
         <main-header />
-        <i-container class="main-content"  fluid>
+        <i-container fluid>
             <router-view></router-view>
         </i-container>
+        <main-footer />
     </i-layout-content>
 </template>
 
 <script>
 
 import MainHeader from './MainHeader'
+import MainFooter from './MainFooter'
 
 export default {
     name: 'MainContent',
     components: {
-        MainHeader
+        MainHeader,
+        MainFooter
     }
 }
 </script>
 
 <style>
 .main-content {
-    height: 90%;
     overflow-y: auto;
 }
 </style>

@@ -53,7 +53,7 @@
 
 import Chart from 'chart.js'
 
-import trafficChartData from '../../data/dashboard-traffic'
+import trafficChartData from '@/data/dashboard-traffic'
 
 export default {
     name: 'DashboardTraffic',

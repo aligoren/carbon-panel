@@ -11,6 +11,7 @@
     "@inkline/inkline": "^1.14",
     "chart.js": "^2.9.3",
     "core-js": "^3.4.3",
+    "flag-icon-css": "^3.4.5",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3",
     "vue-sidebar-menu": "^4.4.3"
