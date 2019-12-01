@@ -4,6 +4,8 @@ An admin panel for Vue.js. Built with @inkline
 
 **Status**: WIP
 
+![/docs/images/home.png](/docs/images/home.png)
+
 ## Project setup
 ```
 yarn install
