@@ -1,17 +1,17 @@
 <template>
-  <i-row>
-    <i-column>
-      Dashboard page :)
-    </i-column>
-  </i-row>
+  <i-container class="_padding-0" fluid>
+    <dashboard-cards />
+  </i-container>
 </template>
 
 <script>
 
+import DashboardCards from './base/DashboardCards'
 
 export default {
-  name: 'home',
+  name: 'Dashboard',
   components: {
+    DashboardCards
   }
 }
 </script>
