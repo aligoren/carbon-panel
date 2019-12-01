@@ -1,5 +1,5 @@
 <template>
-  <i-container class="_padding-0" fluid>
+  <i-container fullscreen class="_padding-0" fluid>
     <dashboard-cards />
     <dashboard-traffic />
   </i-container>
