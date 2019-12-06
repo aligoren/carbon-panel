@@ -34,14 +34,35 @@ const routes = [
             component: () => import('../views/theme/Typography.vue')
           }
         ]
+      },
+      {
+        path: 'base',
+        redirect: '/base/breadcrumbs',
+        name: 'Base',
+        component: {
+          render(c) { return c('router-view') }
+        },
+        children: [
+          {
+            path: 'breadcrumbs',
+            name: 'Breadcrumbs',
+            component: () => import('../views/base/Breadcrumbs.vue')
+          },
+          {
+            path: 'cards',
+            name: 'Cards',
+            component: () => import('../views/base/Cards.vue')
+          }
+        ]
       }
     ]
   },
 ]
 
 const router = new VueRouter({
-  mode: 'hash',
+  mode: 'history',
   base: process.env.BASE_URL,
+  scrollBehavior: () => ({ x: 0, y: 0 }),
   routes
 })
 

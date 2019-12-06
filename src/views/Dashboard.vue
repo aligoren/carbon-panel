@@ -8,9 +8,9 @@
 
 <script>
 
-import DashboardCards from './base/DashboardCards'
-import DashboardTraffic from './base/DashboardTraffic'
-import DashboardSales from './base/DashboardSales'
+import DashboardCards from './dashboard/DashboardCards'
+import DashboardTraffic from './dashboard/DashboardTraffic'
+import DashboardSales from './dashboard/DashboardSales'
 
 export default {
   name: 'Dashboard',
