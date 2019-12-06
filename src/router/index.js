@@ -47,6 +47,11 @@ const routes = [
             path: 'breadcrumbs',
             name: 'Breadcrumbs',
             component: () => import('../views/base/Breadcrumbs.vue')
+          },
+          {
+            path: 'cards',
+            name: 'Cards',
+            component: () => import('../views/base/Cards.vue')
           }
         ]
       }
