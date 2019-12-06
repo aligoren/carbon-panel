@@ -3,7 +3,7 @@
         <i-row class="_margin-bottom-2">
             <i-column xs="12">
                 <i-card>
-                    <i-row class="_margin-bottom-2 _padding-1">
+                    <i-row class="_padding-1">
                         <h4 class="_margin-top-0"><i class="fas fa-angle-right"></i> Standart</h4>
                         <i-column xs="12">
                             <i-breadcrumb>
@@ -18,6 +18,28 @@
                         <i-column xs="12">
                             <i-breadcrumb>
                                 <i-breadcrumb-item v-bind="item" v-for="item in items" :key="item.title">{{item.title}}</i-breadcrumb-item>
+                            </i-breadcrumb>
+                        </i-column>
+                    </i-row>
+
+                    <i-row class="_padding-1">
+                        <h4 class="_margin-top-0"><i class="fas fa-angle-right"></i> Sizes</h4>
+                        <i-column xs="12">
+                            <i-breadcrumb size="sm">
+                                <i-breadcrumb-item href="/">Sizes</i-breadcrumb-item>
+                                <i-breadcrumb-item active>Small</i-breadcrumb-item>
+                            </i-breadcrumb>
+                        </i-column>
+                        <i-column xs="12">
+                            <i-breadcrumb size="md">
+                                <i-breadcrumb-item href="/">Sizes</i-breadcrumb-item>
+                                <i-breadcrumb-item active>Medium</i-breadcrumb-item>
+                            </i-breadcrumb>
+                        </i-column>
+                        <i-column xs="12">
+                            <i-breadcrumb size="lg">
+                                <i-breadcrumb-item href="/">Sizes</i-breadcrumb-item>
+                                <i-breadcrumb-item active>Large</i-breadcrumb-item>
                             </i-breadcrumb>
                         </i-column>
                     </i-row>
