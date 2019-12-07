@@ -72,6 +72,11 @@ const routes = [
             path: 'list-groups',
             name: 'List Groups',
             component: () => import('../views/base/ListGroups.vue')
+          },
+          {
+            path: 'navs',
+            name: 'Navs',
+            component: () => import('../views/base/Navs.vue')
           }
         ]
       }
