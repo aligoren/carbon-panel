@@ -52,6 +52,11 @@ const routes = [
             path: 'cards',
             name: 'Cards',
             component: () => import('../views/base/Cards.vue')
+          },
+          {
+            path: 'carousels',
+            name: 'Carousels',
+            component: () => import('../views/base/Carousels.vue')
           }
         ]
       }
