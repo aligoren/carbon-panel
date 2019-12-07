@@ -83,6 +83,11 @@ const routes = [
             name: 'Navbars',
             component: () => import('../views/base/Navbars.vue')
           },
+          {
+            path: 'paginations',
+            name: 'Paginations',
+            component: () => import('../views/base/Paginations.vue')
+          },
         ]
       }
     ]
