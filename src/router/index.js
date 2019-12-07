@@ -52,6 +52,21 @@ const routes = [
             path: 'cards',
             name: 'Cards',
             component: () => import('../views/base/Cards.vue')
+          },
+          {
+            path: 'carousels',
+            name: 'Carousels',
+            component: () => import('../views/base/Carousels.vue')
+          },
+          {
+            path: 'collapses',
+            name: 'Collapses',
+            component: () => import('../views/base/Collapses.vue')
+          },
+          {
+            path: 'header',
+            name: 'Header',
+            component: () => import('../views/base/Header.vue')
           }
         ]
       }
