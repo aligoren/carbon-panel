@@ -67,7 +67,27 @@ const routes = [
             path: 'header',
             name: 'Header',
             component: () => import('../views/base/Header.vue')
-          }
+          },
+          {
+            path: 'list-groups',
+            name: 'List Groups',
+            component: () => import('../views/base/ListGroups.vue')
+          },
+          {
+            path: 'navs',
+            name: 'Navs',
+            component: () => import('../views/base/Navs.vue')
+          },
+          {
+            path: 'navbars',
+            name: 'Navbars',
+            component: () => import('../views/base/Navbars.vue')
+          },
+          {
+            path: 'paginations',
+            name: 'Paginations',
+            component: () => import('../views/base/Paginations.vue')
+          },
         ]
       }
     ]

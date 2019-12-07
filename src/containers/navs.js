@@ -52,8 +52,8 @@ const navs = [
                 icon: 'fas fa-puzzle-piece',
             },
             {
-                title: 'Hero',
-                href: '/base/hero',
+                title: 'Header',
+                href: '/base/header',
                 icon: 'fas fa-puzzle-piece',
             },
             {
