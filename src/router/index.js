@@ -62,6 +62,11 @@ const routes = [
             path: 'collapses',
             name: 'Collapses',
             component: () => import('../views/base/Collapses.vue')
+          },
+          {
+            path: 'header',
+            name: 'Header',
+            component: () => import('../views/base/Header.vue')
           }
         ]
       }
