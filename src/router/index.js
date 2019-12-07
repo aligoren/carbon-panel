@@ -77,7 +77,12 @@ const routes = [
             path: 'navs',
             name: 'Navs',
             component: () => import('../views/base/Navs.vue')
-          }
+          },
+          {
+            path: 'navbars',
+            name: 'Navbars',
+            component: () => import('../views/base/Navbars.vue')
+          },
         ]
       }
     ]
