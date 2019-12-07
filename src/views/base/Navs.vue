@@ -7,8 +7,8 @@
                         <i-column class="_margin-bottom-1" xs="12">
                             <h4><i class="fas fa-bars"></i> Navs</h4>
                         </i-column>
-                        <i-column xs="4" size="sm">
-                            <i-nav>
+                        <i-column xs="4" >
+                            <i-nav size="sm">
                                 <i-nav-item href="https://aligoren.github.io/carbon-panel/">Link</i-nav-item>
                                 <i-nav-item :to="{ name: 'index' }">Router Link</i-nav-item>
                                 <i-nav-item>Item</i-nav-item>
