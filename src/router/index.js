@@ -67,6 +67,11 @@ const routes = [
             path: 'header',
             name: 'Header',
             component: () => import('../views/base/Header.vue')
+          },
+          {
+            path: 'list-groups',
+            name: 'List Groups',
+            component: () => import('../views/base/ListGroups.vue')
           }
         ]
       }
