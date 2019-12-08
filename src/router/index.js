@@ -98,6 +98,11 @@ const routes = [
             name: 'Progress Bars',
             component: () => import('../views/base/ProgressBars.vue')
           },
+          {
+            path: 'switches',
+            name: 'Switches',
+            component: () => import('../views/base/Switches.vue')
+          },
         ]
       }
     ]
