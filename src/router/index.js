@@ -88,6 +88,21 @@ const routes = [
             name: 'Paginations',
             component: () => import('../views/base/Paginations.vue')
           },
+          {
+            path: 'popovers',
+            name: 'Popovers',
+            component: () => import('../views/base/Popovers.vue')
+          },
+          {
+            path: 'progress-bars',
+            name: 'Progress Bars',
+            component: () => import('../views/base/ProgressBars.vue')
+          },
+          {
+            path: 'switches',
+            name: 'Switches',
+            component: () => import('../views/base/Switches.vue')
+          },
         ]
       }
     ]
