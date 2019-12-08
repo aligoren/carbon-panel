@@ -93,6 +93,11 @@ const routes = [
             name: 'Popovers',
             component: () => import('../views/base/Popovers.vue')
           },
+          {
+            path: 'progress-bars',
+            name: 'Progress Bars',
+            component: () => import('../views/base/ProgressBars.vue')
+          },
         ]
       }
     ]
