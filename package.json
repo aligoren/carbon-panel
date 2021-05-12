@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@inkline/inkline": "^1.14",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "core-js": "^3.4.3",
     "flag-icon-css": "^3.4.5",
     "vue": "^2.6.10",
